@@ -1,0 +1,1105 @@
+
+<!DOCTYPE html><html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1" theme-name="Stellar" theme-version="1.33.1">
+  
+  
+  <meta name="generator" content="Hexo 7.3.0">
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
+  <meta name="theme-color" content="#f9fafb">
+  <title>android系统 - shiu</title>
+
+  
+    <meta name="description" content="ROM ROM（read-only memory,只读存储器，‘只读’是出厂预存的系统文件属性为只可读）可以简单地理解为存储卡，手机的系统及其和核心组件都安装在ROM中，出厂时预装应用和用户后续安装的app、图片、视频、文档等也都在ROM的特点分区中  ROM划为多个逻辑分区 &#x2F;system系统分区，&#x2F;data用户分区，&#x2F;cache缓存分区 分区 &#x2F;system :系">
+<meta property="og:type" content="article">
+<meta property="og:title" content="android系统">
+<meta property="og:url" content="http://example.com/2025/09/23/android-reserve/android/android%E7%B3%BB%E7%BB%9F/">
+<meta property="og:site_name" content="shiu">
+<meta property="og:description" content="ROM ROM（read-only memory,只读存储器，‘只读’是出厂预存的系统文件属性为只可读）可以简单地理解为存储卡，手机的系统及其和核心组件都安装在ROM中，出厂时预装应用和用户后续安装的app、图片、视频、文档等也都在ROM的特点分区中  ROM划为多个逻辑分区 &#x2F;system系统分区，&#x2F;data用户分区，&#x2F;cache缓存分区 分区 &#x2F;system :系">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754041165938-9f712383-94d8-4d9f-b15b-451cee42a031.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754293216780-ee603500-405f-4665-926f-60c4bf25222c.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300351474-d89d5953-97f7-4250-8cee-0a67a2478306.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300554932-19c91f11-ae07-4eaf-a64a-ee83f4812085.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300516837-da3e4206-d207-438d-9831-9a6ac3838986.png">
+<meta property="article:published_time" content="2025-09-23T01:51:09.974Z">
+<meta property="article:modified_time" content="2025-09-23T01:52:22.373Z">
+<meta property="article:author" content="shiu">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754041165938-9f712383-94d8-4d9f-b15b-451cee42a031.png">
+  
+  
+  
+  
+
+  <!-- feed -->
+  
+
+  <link rel="stylesheet" href="/css/main.css?v=1.33.1">
+
+
+  
+
+  
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"shiu","sameAs":[]},"dateCreated":"2025-09-23T09:51:09+08:00","dateModified":"2025-09-23T09:52:22+08:00","datePublished":"2025-09-23T09:51:09+08:00","description":"","headline":"android系统","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/09/23/android-reserve/android/android%E7%B3%BB%E7%BB%9F/"},"publisher":{"@type":"Organization","name":"shiu","sameAs":[]},"url":"http://example.com/2025/09/23/android-reserve/android/android%E7%B3%BB%E7%BB%9F/","image":[]}</script>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css">
+</head>
+<body>
+
+<div class="l_body content" id="start" layout="post" type="tech" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
+
+
+<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="/images/touxiang.png" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">shiu</div><div class="sub normal cap">android reserver</div><div class="sub hover cap" style="opacity:0"> 行到水穷处，坐看云起时</div></a></div></header>
+
+<div class="nav-area">
+
+<nav class="menu dis-select"><a class="nav-item active" title="博客" href="/" style="color:#1BCDFC"><span>博客</span></a><a class="nav-item" title="分享" href="/share/" style="color:#3DC550"><span>分享</span></a></nav>
+</div>
+<div class="widgets">
+<div class="search-wrapper" id="search-wrapper"><form class="search-form"><a class="search-button" onclick="document.getElementById(&quot;search-input&quot;).focus();"><svg t="1705074644177" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1560" width="200" height="200"><path d="M1008.839137 935.96571L792.364903 719.491476a56.783488 56.783488 0 0 0-80.152866 0 358.53545 358.53545 0 1 1 100.857314-335.166073 362.840335 362.840335 0 0 1-3.689902 170.145468 51.248635 51.248635 0 1 0 99.217358 26.444296 462.057693 462.057693 0 1 0-158.255785 242.303546l185.930047 185.725053a51.248635 51.248635 0 0 0 72.568068 0 51.248635 51.248635 0 0 0 0-72.978056z" p-id="1561"></path><path d="M616.479587 615.969233a50.428657 50.428657 0 0 0-61.498362-5.534852 174.655348 174.655348 0 0 1-177.525271 3.484907 49.403684 49.403684 0 0 0-58.833433 6.76482l-3.074918 2.869923a49.403684 49.403684 0 0 0 8.609771 78.10292 277.767601 277.767601 0 0 0 286.992355-5.739847 49.403684 49.403684 0 0 0 8.404776-76.667958z" p-id="1562"></path></svg></a><input type="text" class="search-input" id="search-input" placeholder="站内搜索"></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div>
+
+
+
+<widget class="widget-wrapper slide-up recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2025/10/27/android-reserve/%E6%A1%88%E4%BE%8B/%E6%9F%90%E6%9F%90%E5%A4%A7%E5%86%92%E9%99%A9/"><span class="title">某某大冒险</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x9/"><span class="title">Challenge 0x9</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x8/"><span class="title">Challenge 0x8</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x7/"><span class="title">Challenge 0x7</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x6/"><span class="title">Challenge 0x6</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x5/"><span class="title">Challenge 0x5</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x4/"><span class="title">Challenge 0x4</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x3/"><span class="title">Challenge 0x3</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x2/"><span class="title">Challenge 0x2</span></a><a class="item title" href="/2025/09/23/android-reserve/frida/%E5%AE%9E%E6%88%98/Challenge%200x1/"><span class="title">Challenge 0x1</span></a></div></widget>
+</div>
+<footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://github.com/reshiu" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/08a41b181ce68.svg"/></a></div></footer>
+</div></aside><div class="l_main" id="main">
+
+
+
+
+
+<div class="article banner slide-up top">
+  <div class="content">
+    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/android-reserve-android/">android-reserve/android</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-09-23T01:51:09.974Z">2025-09-23</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-09-23T01:52:22.373Z">2025-09-23</time></span></div></div></div>
+    
+    <div class="bottom only-title">
+      
+      <div class="text-area">
+        <h1 class="text title"><span>android系统</span></h1>
+        
+      </div>
+    </div>
+    
+  </div>
+  </div><article class="md-text content slide-up"><h2 id="GKJHs">ROM</h2>
+ROM（read-only memory,只读存储器，‘只读’是出厂预存的系统文件属性为只可读）可以简单地理解为存储卡，手机的系统及其和核心组件都安装在ROM中，出厂时预装应用和用户后续安装的app、图片、视频、文档等也都在ROM的特点分区中
+
+<p>ROM划为多个逻辑分区 &#x2F;system系统分区，&#x2F;data用户分区，&#x2F;cache缓存分区</p>
+<h2 id="huukZ">分区</h2>
+/system :系统分区，存放系统核心文件和预装应用
+
+<p>&#x2F;data : 用户分区，存放用户数据、应用数据和个人文件，类似windows中的user（用户）文件</p>
+<p>&#x2F;cache : 缓存分区，存放临时缓存和系统更新文件</p>
+<p>&#x2F;dev (device): 设备文件，存放和硬件设备交互的接口，读取这些文件来控制硬件设备</p>
+<p>特别的&#x2F;dev&#x2F;binder中存放的是IPC通信驱动接口，<font style="color:rgba(0, 0, 0, 0.85);">ActivityManagerService、PackageManagerService 等就是通过这个文件来发送和接收IPC请求，不同进程之间的通信也是通过这个接口来实现的</font></p>
+<p><font style="color:rgba(0, 0, 0, 0.85);">&#x2F;proc :虚拟文件系统，动态映射内核数据结构，例如进程、cpu、内存使用情况等信息</font></p>
+<h2 id="QmVCx">驱动</h2>
+驱动的核心作用是充当操作系统和硬件设备（显卡、键盘、打印机、摄像头等）之间的'翻译官'，将电子信号翻译成数字信号。
+
+
+
+<h2 id="K5R5L">启动流程</h2>
+<h3 id="tylg7">Boot Loader加载</h3>
+boot loader是按下电源后第一个加载的。这个阶段都会运行一些制造商自定义的初始化代码
+
+<h3 id="lffZt">加载kernel</h3>
+Boot 分区加载kernel（内核）与initrd到RAM（随机存储器，也就是运行内存），最后跳转到kernel继续完成启动
+
+<h4 id="RqE7V">kernel(内核)</h4>
+kernel是操作系统的核心组件，负责管理硬件资源和为上层程序提供接口
+
+<h5 id="Du3Xd">管理硬件资源</h5>
+决定让哪个进程获得CPU的运行时间，
+
+<p>分配和回收内存空间，</p>
+<p>通过驱动程序与硬件设备通信，控制设备的读写、启动、关闭等操作</p>
+<p>管理磁盘上的文件和目录，负责文件创建、删除、读写、已经权限控制</p>
+<p>处理网络数据的发送和接收</p>
+<h5 id="AC2eR">给上层程序提供系统调用接口（System call）</h5>
+上层程序要用到什么，就通过这个接口调用什么，要保存文件的时候就通过内核的"写文件"系统调用
+
+
+
+<p>总的来说，上层程序看在这里看上去像是人的思维，表明要干什么，而内核则是想是心脏，得到指令，开始驱动四肢（硬件设备)运动</p>
+<h3 id="yWMxh">初始化设备服务</h3>
+内核kernel会启动所有Android 系统设备所必须的服务，初始化Memory(存储器)、初始化IO、内存保护、驱动、cpu调度等，还会挂载文件系统
+
+
+
+<h3 id="AoTnp">加载系统服务</h3>
+初始化设备服务后，会启动init进程，进程PID为1，父进程是PID为0的 Kernel,它会执行init.rc的脚本中的代码，会初始化android系统的核心服务例如针对通话的rild、针对VPN连接接的mtpd等等
+
+<h4 id="HzMvI">init.rc</h4>
+这个文件是用android自定义的初始化语言写的
+
+<h3 id="Lrm5l">虚拟机初始化</h3>
+init还会初始化一个Zygote进程，这个进程会创建Dalvik VM，会启动第一个java组件系统服务和Android Framework服务
+
+
+
+<h3 id="utPiK">启动完成</h3>
+当系统完全启动之后，载入Home(桌面应用程序)，然后做一些应用层的初始化工作
+
+
+
+<h2 id="SYTIh">Zygote</h2>
+Zygote(受精卵)这是init初始化启动的一个进程。它启动之后会：
+
+<ol>
+<li>加载android框架、资源文件和系统共享库</li>
+<li>初始化虚拟机，预编译部分字节码</li>
+<li>启动ZygoteServer,监听来自系统服务的进程创建请求（通过socket通信），此时Zygote处于“待命状态”，等待创建新进程的指令</li>
+</ol>
+<p>总的来说，这个进程是给app提供框架、库和服务的。</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754041165938-9f712383-94d8-4d9f-b15b-451cee42a031.png"></p>
+<p>例：</p>
+<p>home(桌面应用程序)的启动</p>
+<ol>
+<li>系统完成启动完成后,ActivityManagerService（AMS，系统服务之一）会检测并启动home</li>
+<li>AMS会通过Process.start()向ZygoteProcess发送请求，告知要创建一个进程来运行桌面应用的包名（如com.android.launcher3）</li>
+<li>zygote接收到ZygoteProcess（通过socket）的请求后会fork一个和zygote一样的子进程</li>
+<li>新fork的子进程会由ActivityThread初始化来脱离Zygote。</li>
+</ol>
+<p>而桌面的普通app，是由桌面应用通过Intent向AMS发送请求</p>
+<p>app运行中新fork子进程的初始化包括：</p>
+<ol>
+<li>启动应用专属主线程ActivityThread</li>
+<li>绑定Application对象，创建上下文（context）</li>
+<li>加载目标app的apk文件、dex代码和私有资源</li>
+</ol>
+<h2 id="tfBOL">匿名共享内存机制</h2>
+Ashmem为用户空间程序提供分配内存的机制。它为多个进程提供共享的内存空间，并完成该共享内存的回收和释放。
+
+<p>就是进程A在内存中申请一块共享内存，然后将运行中产生的数据写入内存并设置访问内存保护权限和标文件描述符（例如fd），然后通过Binder(跨进程通信)把fd传给进程B，B就可以访问该共享内存了。</p>
+<p>这个机制用于传输大型的文件。这样只用传一个文件描述符，效率极高</p>
+<h2 id="WQVBb">日志</h2>
+android保存了linux的日志机制，还使用了另一套日志系统——Logger，该驱动用于支持Logcat命令，用于查看4个独立的日志缓冲区
+
+<p>&#x2F;dev&#x2F;log&#x2F;main(主缓冲区)，用于记录应用相关事件来源</p>
+<p>&#x2F;dev&#x2F;log&#x2F;radio(广播缓冲区)</p>
+<p>&#x2F;dev&#x2F;log&#x2F;event(事件缓冲区）</p>
+<p>&#x2F;dev&#x2F;log&#x2F;system(系统缓冲区)</p>
+<h2 id="Y8j3q">apk安装</h2>
+<h3 id="rmhbw">签名：</h3>
+安装apk时，安装应用程序会通过CERT.RSA查找公钥和算法，并对CERT.SF进行解密和签名验证，确认MANIFEST.MF，最终对每个文件签名校验
+
+<h3 id="VDbgC">安装过程：</h3>
+会复制apk安装包到/data/app目录下，解压并扫描安装包，把dex文件保存在dalvik-cache目录，并在/data/data目录下创建应用数据目录
+
+
+
+<h3 id="Ueuiz">静默安装</h3>
+应用正常安装时向packageinstaller发送一个intent进行安装，然后packageinstaller会弹出如下一个安装授权界面
+
+<p><img src="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754293216780-ee603500-405f-4665-926f-60c4bf25222c.png"></p>
+<p>静默安装就是绕过这个权限授予在不需要用户同意的情况下安装</p>
+<p>packageinstaller是通过PackManagerServer（PMS系统服务）中的installPackage方法进行安装的，这是一个抽象且对外不可见的方法。</p>
+<p>而root权限下的pm命令可以直接调用这个隐藏方法进行安装来达到静默安装的效果，且可以安装到&#x2F;system&#x2F;app下，让用户难以察觉</p>
+<p>还可以修改init.rc中的脚本内容实现静默安装。这种静默安装会在每次系统重启的时候都重新安装一遍。</p>
+<h3 id="GlH5O">删除预装：</h3>
+删除/system/app中对应的.apk和.odex(优化过的dex文件)就可以删除预装软件
+
+<h2 id="zfGBG">android层级与安全措施</h2>
+应用层：接入权限、代码保护
+
+<p>框架层：数字证书</p>
+<p>Dalvik: 沙箱机制</p>
+<p>内核层：Linux</p>
+<h2 id="fVvkP">Android权限</h2>
+android中的权限中有两个重要标识UID和GID
+
+<p>UID（用户ID）: 这个是Android中的沙箱隔离机制，每个应用在安装时都会被系统分配一个唯一的UID，不同UID的应用是不能相互访问各自的资源、内存等</p>
+<p>GID（组ID）：一个应用可以有多个权限，如，同时拥有CAMERA和INTERNET权限，就会同时拥有camera组的ID和internet组的ID</p>
+<h2 id="V6XLV">root权限原理</h2>
+root权限就是将uid和gid设置为0，root用户
+
+<p>已经获取Root后的系统比没有Root的系统多了”su”和”SuperUser.apk”,</p>
+<p>su的源码在&#x2F;system&#x2F;extras&#x2F;su下，这个是用来获取root权限的程序，SuperUser.apk是用来管理root权限的应用</p>
+<p>获取root思路就是</p>
+<ol>
+<li>将编译好的su程序放入系统环境&#x2F;system&#x2F;bin&#x2F;su</li>
+<li>将su文件所有者和所属组设置为root，避免权限混乱（使用命令 chown root:root &#x2F;system&#x2F;bin&#x2F;su）</li>
+<li>将su文件的权限改为”-rwsr-sr-x”(命令 chmod 6755 &#x2F;system&#x2F;bin&#x2F;su)</li>
+<li>安装SuperUser.apk</li>
+</ol>
+<p>但是完成以上操作都是要root权限的，只能通过漏洞来实现</p>
+<p>SuperUser.apk就是一个用来管理root权限（设置白名单）和验证su文件的应用，市面上很多开源的文件，也可以通过攻击该应用获取root权限</p>
+<h3 id="U9Nxw">RageAgainstTheCage漏洞</h3>
+原理：android的init进程启动adbd后，adbd会在运行一段代码后进行降级（init进程是root权限，adbd作为其子进程也是root权限）但是adbd中的代码没有对降级失败后的处理，仍然继续运行。而adbd是什么权限，adb就是什么权限。如此让降级代码执行失败就可以获取root权限了
+
+<p>步骤：</p>
+<ol>
+<li>出厂设置ro.secure属性为1，adbd会读取它的属性,如果为1就会降级为shell权限</li>
+<li>adb工具创建的进程ratc也运行在shell用户权限下,用ratc一直创建子进程，直到达到该用户最大可创建进程数（RLIMIT_NPROC）时，后续创建进程失败</li>
+<li>此时手动杀死adbd进程，因为这是系统服务，android系统会自动重启</li>
+<li>新启动的adbd仍以root权限运行，随后执行降级代码</li>
+<li>在adbd运行时,ratc仍在持续尝试创建子进程，导致进程数已到配额数，这时候adbd会执行降级代码失败，仍以root权限运行下去</li>
+</ol>
+<h2 id="gOkUk">信号监控</h2>
+<h3 id="UjXqW">按键信号</h3>
+用户点击物理按键或者软按键（手机里浮在屏幕上的按键），键盘的输入驱动就会产生一个中断，并向/dev/input/eventX(X为设备编号，对应着触摸屏、音量键和电源键等设备)中写入一个相应的信号，android操作系统会循环读取之中的事件再分发给WindowsManagerServer,由WindowsManagerServer根据事件来源分发到不同的ViewGroup和View中，产生不同的OnClick、OnKeyDown和OnTouch等事件
+
+
+
+<p>getevent命令可以获取信号，添加 -l 加入标签</p>
+<p>例：如果按了软键盘上的某个键，会获得如下信息，虽然我们知道按的”1”但是列出来的信息只给了触摸到的x,y坐标，可以通过监听这里再根据屏幕大小推出是按了什么键</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300351474-d89d5953-97f7-4250-8cee-0a67a2478306.png"></p>
+<p>这种情况会有这种乱序的软键盘来对抗</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300554932-19c91f11-ae07-4eaf-a64a-ee83f4812085.png"></p>
+<p>但如果是按的物理键盘会直接告诉按了什么键</p>
+<p><img src="https://cdn.nlark.com/yuque/0/2025/png/48966394/1754300516837-da3e4206-d207-438d-9831-9a6ac3838986.png"></p>
+<h3 id="fSoyU">短信</h3>
+短信是一种广播，而广播分为有序广播和普通广播
+
+<p>普通广播是完全异步的，任何接收者都可以接收到</p>
+<p>而有序广播会优先发送给优先级最高的receiver</p>
+<p>短信拦截：短信是一种有序广播，所以可以声明一个优先级非常高的receiver来拦截短信</p>
+<p>短信静默发送：即不通过用户同意后台静默发送短信，通过系统的SmsManager中的sendTextMessage方法来发送</p>
+<h3 id="TJArY">电话</h3>
+<h4 id="L4Hj7">电话拨打</h4>
+android上的TelephonyManager中的方法是针对设备通话的封装，其API是不对系统外的应用开放的(注解为@Systemapi方法)。但是可以通过java的反射机制来调用其接口，只需要在AndroidManifest.xml中声明CALL_PHONE权限然后调用TelephonyManager中的call方法就可以不经过用户同意就打电话
+
+
+
+<h4 id="nOQjZ">电话监听</h4>
+只需要在TelephonyManager中注册PhoneStateListener就可以拿到当前通话状态的变化，就可以做出相应的处理
+
+<h2 id="pMFFj">dex</h2>
+dex文件是由JVM编译过后再由Dalvik编译后生成的
+
+<p>dex文件结构由header,table,data组成</p>
+<p>header：和正常的文件头一样，用来声明文件格式、大小等信息</p>
+<p>table：用来声明一些结构化数据引用数据以及数据偏移量</p>
+<p>data：放的是具体逻辑和数据</p>
+<h2 id="EWfMM">屏幕锁</h2>
+android的屏幕锁，不论是图形锁还是密码锁，都会将密码进行加密后存储在/data/system/gesture.key中，通常是用LockSettingsService将密码进行SHA1加密存放到文件中。直接删掉，系统会认为手机没有设置屏幕代码
+
+<h2 id="ycFjI">系统调用机制</h2>
+linux基于ARM架构的系统
+
+<ol>
+<li>通过软件中断（SWI）从用户态进入内核态</li>
+<li>再由中断处理程序进入系统调用表</li>
+<li>由系统调用表找到系统调用函数</li>
+</ol>
+<p>所以这里有个攻击点</p>
+<ol>
+<li>可以对系统调用表进行重定向，重定向到一个自定义的表地址里</li>
+<li>可以对系统调用表里的指针进行重定向，重定向到恶意函数地址</li>
+</ol>
+<p>可以搜索sys_call_table(系统调用表)找到</p>
+<h2 id="nLJbF">LKM(Loadable Kernel Modules)</h2>
+LKM是linux可加载的内核模块。实际上为.ko后缀文件（旧版本为.elf）
+
+<p>linux内核采用单核机制，内部分为若干功能模块，模块间通信通过直接调用其它模块或系统1提供的内核函数来实现。但是这样任何功能的添加和删除都要重新编译内核，这就引入了LKM</p>
+<p>LKM包含module_init和module_exit宏，用来声明注册函数和卸载函数。向内核插入模块就调用module_init注册的函数，卸载就调用module_exit注册的一个或多个函数</p>
+<p>LKM加载分为静态和动态两种方式</p>
+<p>静态直接将代码编译进内核</p>
+<p>动态使用shell命令 insmod或modprob加载  通过rmmod或modprob卸载</p>
+<h2 id="fr9md">Rootkit</h2>
+Rootkit是一类恶意软件。旨在获取root权限并长期潜伏，同时隐藏自身以及相关恶意活动，逃避检测与清除。它是一套技术组合，并非单一工具
+
+<h3 id="PU6D4">环境搭建</h3>
+1. 准备Android SDK、Android NDK、Git 、JDK等工具
+2. 下载对应设备的内核源码
+3. 添加环境变量
+4. 配置config
+5. 编译
+
+<h3 id="MdKlX">自定义内核程序</h3>
+1. 编写驱动代码：在drivers目录下新建一个文件夹，例如hello，在hello目录下，新建三个文件夹hello.c（源码）、Kconfig（配置文件）、Makefile
+2. 添加配置文件：为了让模块能在配置选项中出现，需要在/arch/arm/Kconfig(这个是内核编译前出现大的文件)文件中的menu "Device Drivers"  和endmenu直接添加 source "drivers/hello/Kconfig"。在drivers/Kconfig文件中实现同样操作
+3. 修改Makefile:将hello模块的编译信息添加到Makefile中参与驱动的编译，添加
+
+<p>   obj -$(CONFIG_HELLO) +&#x3D; hello&#x2F;    这里的CONFIG_HELLO存在三种情况y&#x2F;n（参与&#x2F;不参与编译）,m（动态载入模块）</p>
+<ol start="4">
+<li>使用make menuconfig命令更改编译选项</li>
+<li>编译</li>
+</ol>
+<h3 id="Am4Vp">隐藏</h3>
+1. 屏蔽lsmod（这个命令可以打印出来当前加载的索引LKM）：lsmod命令是通过/proc/modules来获取当前模块信息。而/proc/module是内核利用struct modules结构体的表头遍历内核模块链表来的到模块信息，只需要删除相关链表就可以屏蔽lsmod
+2. 文件隐藏：屏蔽掉ls ll等命令检测,通过修改调用表的方式替换系统函数，过滤掉不希望显示的文件
+3. 网络连接隐藏：网络连接信息会保存在/proc/net目录下的tcp和udp文件下，所以查询网络连接也是通过这两个文件查询，修改调用表过滤掉查询信息
+
+
+
+<h3 id="XH2qv">检测</h3>
+1. 文件完整性检测：检测系统中重要的文件的MD5值
+2. Rootkit特征库检测：根据已知Rootkit工具库中的特征字符串作为“指纹”，建立指纹数据库进行检索
+3. 可执行路径检测：如果篡改了内核函数，那么调用该函数时系统的执行流程会发生变化。启用处理器的单步执行模式、测定系统分析执行路径（每个内核函数的路径不一样）来检测
+
+<p>已有的检测模型</p>
+<ol>
+<li>&#x2F;proc&#x2F;checkmod提供了一个检测模型的接口，通过命令来检测</li>
+<li>备份系统调用表等相关信息，每次系统调用前进行比对</li>
+<li>也可以通过LKM来检测</li>
+</ol>
+</article>
+<div class="article-footer slide-up">
+    <section id="license">
+      <div class="header"><span>许可协议</span></div>
+      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div>
+    </section>
+    
+
+</div>
+
+<div class="related-wrap slide-up" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2025/09/23/android-reserve/android/app/">app</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2025/09/23/android-reserve/android/apk%E7%9A%84%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/">apk的四大组件</a></div></section></div>
+
+
+
+
+
+
+<footer class="page-footer slide-up footnote"><hr><div class="text"><p>本站由 <a href="/">shiu</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1">Stellar 1.33.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+</div></footer>
+<div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
+<div class="widgets">
+
+
+
+<widget class="widget-wrapper slide-up toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#GKJHs"><span class="toc-text">ROM</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#huukZ"><span class="toc-text">分区</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#QmVCx"><span class="toc-text">驱动</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#K5R5L"><span class="toc-text">启动流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#tylg7"><span class="toc-text">Boot Loader加载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#lffZt"><span class="toc-text">加载kernel</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#RqE7V"><span class="toc-text">kernel(内核)</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Du3Xd"><span class="toc-text">管理硬件资源</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#AC2eR"><span class="toc-text">给上层程序提供系统调用接口（System call）</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#yWMxh"><span class="toc-text">初始化设备服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AoTnp"><span class="toc-text">加载系统服务</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#HzMvI"><span class="toc-text">init.rc</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lrm5l"><span class="toc-text">虚拟机初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#utPiK"><span class="toc-text">启动完成</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SYTIh"><span class="toc-text">Zygote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tfBOL"><span class="toc-text">匿名共享内存机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#WQVBb"><span class="toc-text">日志</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Y8j3q"><span class="toc-text">apk安装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#rmhbw"><span class="toc-text">签名：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VDbgC"><span class="toc-text">安装过程：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ueuiz"><span class="toc-text">静默安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GlH5O"><span class="toc-text">删除预装：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#zfGBG"><span class="toc-text">android层级与安全措施</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#fVvkP"><span class="toc-text">Android权限</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#V6XLV"><span class="toc-text">root权限原理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#U9Nxw"><span class="toc-text">RageAgainstTheCage漏洞</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gOkUk"><span class="toc-text">信号监控</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#UjXqW"><span class="toc-text">按键信号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#fSoyU"><span class="toc-text">短信</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#TJArY"><span class="toc-text">电话</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#L4Hj7"><span class="toc-text">电话拨打</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#nOQjZ"><span class="toc-text">电话监听</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pMFFj"><span class="toc-text">dex</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#EWfMM"><span class="toc-text">屏幕锁</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ycFjI"><span class="toc-text">系统调用机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nLJbF"><span class="toc-text">LKM(Loadable Kernel Modules)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#fr9md"><span class="toc-text">Rootkit</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PU6D4"><span class="toc-text">环境搭建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MdKlX"><span class="toc-text">自定义内核程序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Am4Vp"><span class="toc-text">隐藏</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#XH2qv"><span class="toc-text">检测</span></a></li></ol></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a></div></widget>
+</div></aside><div class='float-panel'>
+  <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
+  </button>
+  <button type='button' style='display:none' class='mobile-only leftbar-toggle mobile' onclick='sidebar.leftbar()'>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 11c0-3.771 0-5.657 1.172-6.828C4.343 3 6.229 3 10 3h4c3.771 0 5.657 0 6.828 1.172C22 5.343 22 7.229 22 11v2c0 3.771 0 5.657-1.172 6.828C19.657 21 17.771 21 14 21h-4c-3.771 0-5.657 0-6.828-1.172C2 18.657 2 16.771 2 13z"/><path id="sep" stroke-linecap="round" d="M5.5 10h6m-5 4h4m4.5 7V3"/></g></svg>
+  </button>
+</div>
+</div><div class="scripts">
+
+
+<script type="text/javascript">
+  window.canonical = {"originalHost":null,"officialHosts":["localhost"],"encoded":""};
+  const ctx = {
+    date_suffix: {
+      just: `刚刚`,
+      min: `分钟前`,
+      hour: `小时前`,
+      day: `天前`,
+    },
+    root : `/`,
+    tag_plugins: {
+      chat: Object.assign({"api":"https://siteinfo.listentothewind.cn/api/v1"}),
+    }
+  };
+
+  // required plugins (only load if needs)
+  if (`local_search`) {
+    ctx.search = {};
+    ctx.search.service = `local_search`;
+    if (ctx.search.service == 'local_search') {
+      let service_obj = Object.assign({}, `{"field":"all","path":"/search.json","content":true,"skip_search":null,"sort":"-date"}`);
+      ctx.search[ctx.search.service] = service_obj;
+    }
+  }
+  const def = {
+    avatar: `https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/3442075.svg`,
+    cover: `https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/cover/76b86c0226ffd.svg`,
+    loading: `https://api.iconify.design/eos-icons:three-dots-loading.svg?color=%231cd0fd`,
+  };
+  const deps = {
+    jquery: `https://gcore.jsdelivr.net/npm/jquery@3.7/dist/jquery.min.js`,
+    marked: `https://gcore.jsdelivr.net/npm/marked@13.0/lib/marked.umd.min.js`,
+    lazyload: `/%5Bobject%20Object%5D`
+  }
+  
+
+</script>
+
+<script type="text/javascript">
+  
+  function RunItem() {
+    this.list = []; // 存放回调函数
+    this.start = () => {
+      for (var i = 0; i < this.list.length; i++) {
+        this.list[i].run();
+      }
+    };
+    this.push = (fn, name, setRequestAnimationFrame = true) => {
+      let myfn = fn
+      if (setRequestAnimationFrame) {
+        myfn = () => {
+          utils.requestAnimationFrame(fn)
+        }
+      }
+      var f = new Item(myfn, name);
+      this.list.push(f);
+    };
+    this.remove = (name) => {
+      for (let index = 0; index < this.list.length; index++) {
+        const e = this.list[index];
+        if (e.name == name) {
+          this.list.splice(index, 1);
+        }
+      }
+    }
+    // 构造一个可以run的对象
+    function Item(fn, name) {
+      // 函数名称
+      this.name = name || fn.name;
+      // run方法
+      this.run = () => {
+        try {
+          fn()
+        } catch (error) {
+          console.log(error);
+        }
+      };
+    }
+  }
+
+  const utils = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    css: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    js: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script');
+      if (src.startsWith('/')) {
+        src = ctx.root + src.substring(1);
+      }
+      script.src = src;
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function () {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    jq: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        utils.js(deps.jquery).then(fn)
+      } else {
+        fn()
+      }
+    },
+
+    onLoading: (el) => {
+      if (el) {
+        $(el).append('<div class="loading-wrap"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path stroke-dasharray="60" stroke-dashoffset="60" stroke-opacity=".3" d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="1.3s" values="60;0"/></path><path stroke-dasharray="15" stroke-dashoffset="15" d="M12 3C16.9706 3 21 7.02944 21 12"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="15;0"/><animateTransform attributeName="transform" dur="1.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></g></svg></div>');
+      }
+    },
+    onLoadSuccess: (el) => {
+      if (el) {
+        $(el).find('.loading-wrap').remove();
+      }
+    },
+    onLoadFailure: (el) => {
+      if (el) {
+        $(el).find('.loading-wrap svg').remove();
+        $(el).find('.loading-wrap').append('<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="60" stroke-dashoffset="60" d="M12 3L21 20H3L12 3Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.5s" values="60;0"/></path><path stroke-dasharray="6" stroke-dashoffset="6" d="M12 10V14"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="6;0"/></path></g><circle cx="12" cy="17" r="1" fill="currentColor" fill-opacity="0"><animate fill="freeze" attributeName="fill-opacity" begin="0.8s" dur="0.4s" values="0;1"/></circle></svg>');
+        $(el).find('.loading-wrap').addClass('error');
+      }
+    },
+    request: (el, url, callback, onFailure) => {
+      const maxRetry = 3;
+      let retryCount = 0;
+
+      return new Promise((resolve, reject) => {
+        const load = () => {
+          utils.onLoading?.(el);
+
+          let timedOut = false;
+          const timeout = setTimeout(() => {
+            timedOut = true;
+            console.warn('[request] 超时:', url);
+
+            if (++retryCount >= maxRetry) {
+              utils.onLoadFailure?.(el);
+              onFailure?.();
+              reject('请求超时');
+            } else {
+              setTimeout(load, 1000);
+            }
+          }, 5000);
+
+          fetch(url).then(resp => {
+            if (timedOut) return;
+            clearTimeout(timeout);
+
+            if (!resp.ok) throw new Error('响应失败');
+            return resp;
+          }).then(data => {
+            if (timedOut) return;
+            utils.onLoadSuccess?.(el);
+            callback(data);
+            resolve(data);
+          }).catch(err => {
+            clearTimeout(timeout);
+            console.warn('[request] 错误:', err);
+
+            if (++retryCount >= maxRetry) {
+              utils.onLoadFailure?.(el);
+              onFailure?.();
+              reject(err);
+            } else {
+              setTimeout(load, 1000);
+            }
+          });
+        };
+
+        load();
+      });
+    },
+    requestWithoutLoading: (url, options = {}, maxRetry = 2, timeout = 5000) => {
+      return new Promise((resolve, reject) => {
+        let retryCount = 0;
+
+        const tryRequest = () => {
+          let timedOut = false;
+          const timer = setTimeout(() => {
+            timedOut = true;
+            if (++retryCount > maxRetry) reject('timeout');
+            else tryRequest();
+          }, timeout);
+
+          fetch(url, options)
+            .then(resp => {
+              clearTimeout(timer);
+              if (!resp.ok) throw new Error('bad response');
+              resolve(resp);
+            })
+            .catch(err => {
+              clearTimeout(timer);
+              if (++retryCount > maxRetry) reject(err);
+              else setTimeout(tryRequest, 500);
+            });
+        };
+
+        tryRequest();
+      });
+    },
+    /********************** requestAnimationFrame ********************************/
+    // 1、requestAnimationFrame 会把每一帧中的所有 DOM 操作集中起来，在一次重绘或回流中就完成，并且重绘或回流的时间间隔紧紧跟随浏览器的刷新频率，一般来说，这个频率为每秒60帧。
+    // 2、在隐藏或不可见的元素中，requestAnimationFrame 将不会进行重绘或回流，这当然就意味着更少的的 cpu，gpu 和内存使用量。
+    requestAnimationFrame: (fn) => {
+      if (!window.requestAnimationFrame) {
+        window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame;
+      }
+      window.requestAnimationFrame(fn)
+    },
+    dark: {},
+  };
+
+  // utils.dark.mode 当前模式 dark or light
+  // utils.dark.toggle() 暗黑模式触发器
+  // utils.dark.push(callBack[,"callBackName"]) 传入触发器回调函数
+  utils.dark.method = {
+    toggle: new RunItem(),
+  };
+  utils.dark = Object.assign(utils.dark, {
+    push: utils.dark.method.toggle.push,
+  });
+</script>
+<script>
+  const sidebar = {
+    leftbar: () => {
+      if (l_body) {
+        l_body.toggleAttribute('leftbar');
+        l_body.removeAttribute('rightbar');
+      }
+    },
+    rightbar: () => {
+      if (l_body) {
+        l_body.toggleAttribute('rightbar');
+        l_body.removeAttribute('leftbar');
+      }
+    },
+    dismiss: () => {
+      if (l_body) {
+        l_body.removeAttribute('leftbar');
+        l_body.removeAttribute('rightbar');
+      }
+    },
+    toggleTOC: () => {
+      document.querySelector('#data-toc').classList.toggle('collapse');
+    }
+  }
+</script>
+<script type="text/javascript">
+  (() => {
+    const tagSwitchers = document.querySelectorAll('.tag-subtree.parent-tag > a > .tag-switcher-wrapper')
+    for (const tagSwitcher of tagSwitchers) {
+      tagSwitcher.addEventListener('click', (e) => {
+        const parent = e.target.closest('.tag-subtree.parent-tag')
+        parent.classList.toggle('expanded')
+        e.preventDefault()
+      })
+    }
+
+    // Get active tag from query string, then activate it.
+    const urlParams = new URLSearchParams(window.location.search)
+    const activeTag = urlParams.get('tag')
+    if (activeTag) {
+      let tag = document.querySelector(`.tag-subtree[data-tag="${activeTag}"]`)
+      if (tag) {
+        tag.querySelector('a').classList.add('active')
+        
+        while (tag) {
+          tag.classList.add('expanded')
+          tag = tag.parentElement.closest('.tag-subtree.parent-tag')
+        }
+      }
+    }
+  })()
+</script>
+
+<script async src="https://gcore.jsdelivr.net/npm/vanilla-lazyload@19.1/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazy",
+    callback_loaded: (el) => {
+      el.classList.add('loaded');
+      const wrapper = el.closest('.lazy-box');
+      const icon = wrapper?.querySelector('.lazy-icon');
+      if (icon) icon.remove();
+    }
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    window.lazyLoadInstance?.update();
+  });
+
+  window.wrapLazyloadImages = (container) => {
+    if (typeof container === 'string') {
+      container = document.querySelector(container);
+    }
+    if (!container) return;
+    
+    const images = container.querySelectorAll('img');
+    images.forEach((img) => {
+      if (img.classList.contains('lazy')) return;
+
+      const src = img.getAttribute('src');
+      if (!src) return;
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'lazy-box';
+
+      const newImg = img.cloneNode();
+      newImg.removeAttribute('src');
+      newImg.setAttribute('data-src', src);
+      newImg.classList.add('lazy');
+
+      const icon = document.createElement('div');
+      icon.className = 'lazy-icon';
+      if (def.loading) {
+        icon.style.backgroundImage = `url("${def.loading}")`;
+      }
+
+      wrapper.appendChild(newImg);
+      wrapper.appendChild(icon);
+
+      img.replaceWith(wrapper);
+    });
+
+    // 通知 LazyLoad 更新
+    if (window.lazyLoadInstance?.update) {
+      window.lazyLoadInstance.update();
+    }
+  }
+  
+</script>
+
+<!-- required -->
+<script src="/js/main.js?v=1.33.1" defer></script>
+
+<script type="text/javascript">
+  const applyTheme = (theme) => {
+    if (theme === 'auto') {
+      document.documentElement.removeAttribute('data-theme')
+    } else {
+      document.documentElement.setAttribute('data-theme', theme)
+    }
+
+    // applyThemeToGiscus(theme)
+  }
+
+  // FIXME: 这会导致无法使用 preferred_color_scheme 以外的主题
+  const applyThemeToGiscus = (theme) => {
+    // theme = theme === 'auto' ? 'preferred_color_scheme' : theme
+    const cmt = document.getElementById('giscus')
+    if (cmt) {
+      // This works before giscus load.
+      cmt.setAttribute('data-theme', theme)
+    }
+
+    const iframe = document.querySelector('#comments > section.giscus > iframe')
+    if (iframe) {
+      // This works after giscus loaded.
+      const src = iframe.src
+      const newSrc = src.replace(/theme=[\w]+/, `theme=${theme}`)
+      iframe.src = newSrc
+    }
+  }
+
+  const switchTheme = () => {
+    // light -> dark -> auto -> light -> ...
+    const currentTheme = document.documentElement.getAttribute('data-theme')
+    let newTheme;
+    switch (currentTheme) {
+      case 'light':
+        newTheme = 'dark'
+        break
+      case 'dark':
+        newTheme = 'auto'
+        break
+      default:
+        newTheme = 'light'
+    }
+    applyTheme(newTheme)
+    window.localStorage.setItem('Stellar.theme', newTheme)
+    utils.dark.mode = newTheme === 'auto' ? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light") : newTheme;
+    utils.dark.method.toggle.start();
+
+    const messages = {
+      light: `切换到浅色模式`,
+      dark: `切换到深色模式`,
+      auto: `切换到跟随系统配色`,
+    }
+    hud?.toast?.(messages[newTheme])
+  }
+
+  (() => {
+    // Apply user's preferred theme, if any.
+    const theme = window.localStorage.getItem('Stellar.theme')
+    if (theme !== null) {
+      applyTheme(theme)
+    } else {
+      utils.dark.mode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    utils.dark.method.toggle.start();
+  })()
+</script>
+
+
+<!-- optional -->
+
+
+
+<script defer>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    ctx.services = Object.assign({}, JSON.parse(`{"mdrender":{"js":"/js/services/mdrender.js"},"siteinfo":{"js":"/js/services/siteinfo.js","api":null},"ghinfo":{"js":"/js/services/ghinfo.js"},"rating":{"js":"/js/services/rating.js","api":"https://star-vote.xaox.cc/api/rating"},"vote":{"js":"/js/services/vote.js","api":"https://star-vote.xaox.cc/api/vote"},"sites":{"js":"/js/services/sites.js"},"friends":{"js":"/js/services/friends.js"},"friends_and_posts":{"js":"/js/services/friends_and_posts.js"},"timeline":{"js":"/js/services/timeline.js"},"fcircle":{"js":"/js/services/fcircle.js"},"weibo":{"js":"/js/services/weibo.js"},"memos":{"js":"/js/services/memos.js"},"voice":{"js":"/js/plugins/voice.js"},"video":{"js":"/js/plugins/video.js"},"download-file":{"js":"/js/plugins/download-file.js"},"twikoo":{"js":"/js/services/twikoo_latest_comment.js"},"waline":{"js":"/js/services/waline_latest_comment.js"},"artalk":{"js":"/js/services/artalk_latest_comment.js"},"giscus":{"js":"/js/services/giscus_latest_comment.js"},"contributors":{"edit_this_page":{"_posts/":null,"wiki/stellar/":"https://github.com/xaoxuu/hexo-theme-stellar-docs/blob/main/"},"js":"/js/services/contributors.js"}}`));
+    for (let id of Object.keys(ctx.services)) {
+      const js = ctx.services[id].js;
+      if (id == 'siteinfo') {
+        ctx.cardlinks = document.querySelectorAll('a.link-card[cardlink]');
+        if (ctx.cardlinks?.length > 0) {
+          utils.js(js, { defer: true }).then(function () {
+            setCardLink(ctx.cardlinks);
+          });
+        }
+      } else if (id == 'voice') {
+        ctx.voiceAudios = document.querySelectorAll('.voice>audio');
+        if (ctx.voiceAudios?.length > 0) {
+          utils.js(js, { defer: true }).then(function () {
+            createVoiceDom(ctx.voiceAudios);
+          });
+        }
+      } else if (id == 'video') {
+        ctx.videos = document.querySelectorAll('.video>video');
+        if (ctx.videos?.length > 0) {
+          utils.js(js, { defer: true }).then(function () {
+            videoEvents(ctx.videos);
+          });
+        }
+      } else if (id == 'download-file') {
+        ctx.files = document.querySelectorAll('.file');
+        if (ctx.files?.length > 0) {
+          utils.js(js, { defer: true }).then(function () {
+            downloadFileEvent(ctx.files);
+          });
+        }
+      } else {
+        const els = document.getElementsByClassName(`ds-${id}`);
+        if (els?.length > 0) {
+          utils.jq(() => {
+            if (id == 'timeline' || 'memos' || 'marked') {
+              utils.js(deps.marked).then(function () {
+                utils.js(js, { defer: true });
+              });
+            } else {
+              utils.js(js, { defer: true });
+            }
+          });
+        }
+      }
+    }
+
+    // chat iphone time
+    let phoneTimes = document.querySelectorAll('.chat .status-bar .time');
+
+    if (phoneTimes.length > 0) {
+      NowTime();
+      var date = new Date();
+      var sec = date.getSeconds();
+      var firstAdjustInterval = setInterval(firstAdjustTime, 1000 * (60 - sec));
+    }
+
+    function firstAdjustTime() {
+      NowTime();
+      clearInterval(firstAdjustInterval);
+      setInterval(NowTime, 1000 * 60);
+    }
+
+    function NowTime() {
+      for (let i = 0; i < phoneTimes.length; ++i) {
+        var timeSpan = phoneTimes[i];
+        var date = new Date();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        timeSpan.innerHTML = check(hour) + ":" + check(min);
+      }
+    };
+
+    function check(val) {
+      if (val < 10) {
+        return ("0" + val);
+      }
+      return (val);
+    }
+
+    // chat quote
+    const chat_quote_obverser = new IntersectionObserver((entries, observer) => {
+      entries.filter((entry) => { return entry.isIntersecting }).sort((a, b) => a.intersectionRect.y !== b.intersectionRect.y ? a.intersectionRect.y - b.intersectionRect.y : a.intersectionRect.x - b.intersectionRect.x).forEach((entry, index) => {
+          observer.unobserve(entry.target);
+          setTimeout(() => {
+            entry.target.classList.add('quote-blink');
+            setTimeout(() => {
+              entry.target.classList.remove('quote-blink');
+            }, 1000);
+          }, Math.max(100, 16) * (index + 1));
+        });
+    });
+
+    var chatQuotes = document.querySelectorAll(".chat .talk .quote");
+    chatQuotes.forEach((quote) => {
+      quote.addEventListener('click', function () {
+        var chatCellDom = document.getElementById("quote-" + quote.getAttribute("quotedCellTag"));
+        if (chatCellDom) {
+          var chatDiv = chatCellDom.parentElement;
+          var mid = chatDiv.clientHeight / 2;
+          var offsetTop = chatCellDom.offsetTop;
+          if (offsetTop > mid - chatCellDom.clientHeight / 2) {
+            chatDiv.scrollTo({
+              top: chatCellDom.offsetTop - mid + chatCellDom.clientHeight / 2,
+              behavior: "smooth"
+            });
+          } else {
+            chatDiv.scrollTo({
+              top: 0,
+              behavior: "smooth"
+            });
+          }
+          chat_quote_obverser.observe(chatCellDom);
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    ctx.search = {
+      path: `/search.json`,
+    }
+    utils.js('/js/search/local-search.js', { defer: true });
+  });
+</script><script>
+  window.FPConfig = {
+    delay: 0,
+    ignoreKeywords: [],
+    maxRPS: 5,
+    hoverDelay: 25
+  };
+</script>
+<script defer src="https://gcore.jsdelivr.net/npm/flying-pages@2/flying-pages.min.js"></script><script>
+  ctx.fancybox = {
+    selector: `.timenode p>img`,
+    css: `https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css`,
+    js: `https://gcore.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js`
+  };
+  var selector = '[data-fancybox]:not(.error), .with-fancybox .atk-content img:not([atk-emoticon])';
+  if (ctx.fancybox.selector) {
+    selector += `, ${ctx.fancybox.selector}`
+  }
+  var needFancybox = document.querySelectorAll(selector).length !== 0;
+  if (!needFancybox) {
+    const memos = document.getElementsByClassName('ds-memos');
+    if (memos != undefined && memos.length > 0) {
+      needFancybox = true;
+    }
+    const fancybox = document.getElementsByClassName('with-fancybox');
+    if (fancybox != undefined && fancybox.length > 0) {
+      needFancybox = true;
+    }
+  }
+  if (needFancybox) {
+    utils.css(ctx.fancybox.css);
+    utils.js(ctx.fancybox.js, { defer: true }).then(function () {
+      Fancybox.bind(selector, {
+        hideScrollbar: false,
+        Thumbs: {
+          autoStart: false,
+        },
+        caption: (fancybox, slide) => {
+          return slide.triggerEl.alt || slide.triggerEl.dataset.caption || null
+        }
+      });
+    })
+  }
+</script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const swiper_api = document.getElementById('swiper-api');
+    if (swiper_api != undefined) {
+      utils.css(`https://unpkg.com/swiper@10.3/swiper-bundle.min.css`);
+      utils.js(`https://unpkg.com/swiper@10.3/swiper-bundle.min.js`, { defer: true }).then(function () {
+        const effect = swiper_api.getAttribute('effect') || '';
+        var swiper = new Swiper('.swiper#swiper-api', {
+          slidesPerView: 'auto',
+          spaceBetween: 8,
+          centeredSlides: true,
+          effect: effect,
+          rewind: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      })
+    }
+  });
+</script>
+<script defer src="https://gcore.jsdelivr.net/npm/scrollreveal@4.0/dist/scrollreveal.min.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    const slideUp = {
+      distance: `8px`,
+      duration: `500`,
+      interval: `50`,
+      scale: `1`,
+      opacity: 0,
+      easing: "ease-out"
+    };
+    ScrollReveal({ container: '.widgets' }).reveal('.slide-up', { ...slideUp });
+    ScrollReveal({ container: '.l_main' }).reveal('.slide-up', { ...slideUp });
+    ScrollReveal({ container: '.l_right' }).reveal('.slide-up', { ...slideUp });
+  });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    window.codeElements = document.querySelectorAll('.code');
+    if (window.codeElements.length > 0) {
+      ctx.copycode = {
+        default_text: `Copy`,
+        success_text: `Copied`,
+        toast: `复制成功`,
+      };
+      utils.js('/js/plugins/copycode.js');
+    }
+  });
+</script>
+
+
+<!-- inject -->
+
+</div></body></html>
